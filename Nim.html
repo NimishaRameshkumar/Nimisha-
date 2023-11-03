@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="C:\Users\PRAMILA\Desktop\styles.css">
+    <title>Nimisha - Portfolio</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="C:\Users\PRAMILA\Desktop\Manonmaniam-Sundaranar-University.jpg" alt="College Logo">
+        </div>
+        <h1>Nimisha R</h1>
+    </header>
+    <main>
+        <section class="personal-info">
+            <h2>Personal Information</h2>
+            <p>Name: Nimisha</p>
+            <p>Email: nimishar@gmail.com</p>
+            <p>Location: Villukuri, TamilNadu</p>
+        </section>
+        <section class="education-info">
+            <h2>Educational Details</h2>
+            <p>College: Pioneer Kumaraswamy College</p>
+            <p>Program: B.Sc Computer Science</p>
+            <p>Graduation Year: 2018</p>
+        </section>
+    </main>
+    <script>
+        // JavaScript logic
+        document.addEventListener("DOMContentLoaded", function () {
+            // Function to change the background color of the header
+            function changeHeaderBackground() {
+                const header = document.querySelector("header");
+                header.style.backgroundColor = "lightblue";
+            }
+    
+            // Add an event listener to trigger the background color change
+            const header = document.querySelector("header");
+            header.addEventListener("click", changeHeaderBackground);
+        });
+    </script>
+    
+</body>
+</html>
